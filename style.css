@@ -1,0 +1,111 @@
+*{
+	padding:0;
+	margin:0; 
+	box-sizing:border-box;
+}
+
+.row{
+	position:relative;
+}
+
+.row{
+	display:flex;
+	position:relative;
+	
+}
+.col1, .col2{
+	width:50%;
+	margin:50px 0 0 0;
+}
+
+.photo-1{
+	position:absolute;
+	top:115px;
+	left:20px;
+	
+}
+
+.photo-2{
+	position:absolute;
+	left:150px;
+}
+
+.photo-3{
+	position:absolute;
+	left:500px;
+	top:225px;
+}
+
+
+.icon1 h3::before{
+	content:url(images/student-icon.png);
+	position:absolute;
+	right:575px;
+	background-color:#fff5ee;
+	padding:10px 10px 5px 10px;
+	border-radius:50px;
+	
+}
+
+
+.icon2 h3::before{
+	content:url(images/book-icon.png);
+	position:absolute;
+	right:575px;
+	background-color:#f4f2f4;
+	padding:10px 10px 5px 10px;
+	border-radius:50px;
+	
+}
+
+
+.icon3 h3::before{
+	content:url(images/reward-icon.png);
+	position:absolute;
+	right:575px;
+	background-color:#fff5ee;
+	padding:10px 10px 5px 10px;
+	border-radius:50px;
+	
+}
+
+a{
+	text-decoration:none;
+	color:white;
+	padding:15px 30px;
+	background-color:#4169e1;
+	border-radius:5px;
+	font-size:20px;	
+}
+
+.content{
+	margin-left:75px;
+	margin-bottom:50px;
+	margin-right:100px;
+}
+
+
+.intro{
+	margin:50px 0 50px 25px;
+	line-height:35px;
+}
+
+.intro h5{
+	color:#4169e1;
+}
+
+.intro h1{
+	font-size:30px;
+}
+
+.sub-content{
+	margin:0 0 75px 50px ;
+}
+
+.icon1, .icon2{
+	margin-bottom:50px;
+}
+
+h3.details{
+	margin-bottom:10px;
+}
